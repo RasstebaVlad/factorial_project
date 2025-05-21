@@ -33,7 +33,7 @@ public class FactorialProjectApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Enter number of threads in pool: ");
+		log.info("Enter number of threads in pool: ");
 		int poolSize = scanner.nextInt();
 		scanner.close();
 
